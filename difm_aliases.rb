@@ -9,7 +9,7 @@ for i in 0..lines.length-1
 	lines2[i] = lines[i].split
 	urls[i] = lines2[i][1]
 	genres[i] = urls[i].partition("di_").last
-	aliases[i] = "alias " + genres[i] + "=" + "'mplayer " + urls[i] + "'"
+	aliases[i] = "alias difm-" + genres[i] + "=" + "'mplayer " + urls[i] + "'"
 end
 
 
