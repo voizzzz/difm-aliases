@@ -13,7 +13,7 @@ for i in 0..lines.length-1
 end
 
 
-File.open("aliases.txt", "w+") do |f|
+File.open(".bash_aliases", "w+") do |f|
 	  f.puts(aliases)
 end
 
