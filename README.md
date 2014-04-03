@@ -7,9 +7,11 @@ To use it, copy the .bash_aliases file into your home directory or if you alread
 
 alias chiptunes='mplayer http://pub7.di.fm/di_chiptunes'
 
-So you just type chiptunes on terminal and it starts playing the station.
+So if you type chiptunes on terminal, it starts playing the station.
 
 You need to have mplayer installed (sudo apt-get install mplayer) and restart terminal after you copied the aliases.
+
+You can modify the aliases however it suits you.
 
 
 
